@@ -1,0 +1,17 @@
+:root{
+  --bg:#0b1220; --panel:#121c30; --line:#1f2c45; --txt:#e6edf7;
+  --sub:#8ea3c3; --cy:#22d3ee; --bl:#3b82f6; --gr:#22c55e; --am:#f59e0b; --rd:#ef4444;
+}
+body{background:linear-gradient(135deg,#0b1220,#0d1830);color:var(--txt);
+  font-family:"Microsoft YaHei","Segoe UI",sans-serif;}
+.stApp{background:transparent;}
+h1{color:var(--txt)!important;text-shadow:0 0 20px rgba(34,211,238,.35);letter-spacing:1px;}
+[data-testid="stSidebar"]{background:linear-gradient(160deg,#0d1b2a,#0a1320)!important;
+  border-right:1px solid var(--line);}
+[data-testid="stSidebar"] .stSlider,.stSlider{
+  background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:12px;}
+.stSlider>div>div>div{background:linear-gradient(90deg,var(--cy),var(--bl))!important;}
+.stButton>button,.stDownloadButton>button{
+  background:linear-gradient(90deg,var(--bl),var(--cy))!important;color:#04121f!important;
+  border:none!important;border-radius:10px!important;font-weight:700!important;}
+.stAlert{border-radius:14px!important;border:none!important;backdrop-filter:blur(6px);}
